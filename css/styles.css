@@ -1,0 +1,110 @@
+/* Колір основного тексту #2E2F42 */
+  /* Вторинний колір тексту #434455 */
+  /* білий #FFFFFF */
+  /* акцент #4D5AE5 */
+  /* колір фону background: #E5E5E5 */
+  /* вторинний колір фону #2E2F4 */
+
+
+:root {
+    --primary-text-color:#2E2F42;
+    --title-text-color:#434455;
+    --accent-color:#4D5AE5;
+    --primary-bg-color:#E5E5E5;
+    --title-bg-color:#F4F4FD;
+    --accent-bg-color:#2E2F42;
+    --hover-bg-color: #404BBF;
+    --one-bg-color: #FFFFFF;
+}
+
+
+body {
+    color:var(--title-text-color);
+    background-color:var(--one-bg-color);
+    font-family:Roboto,sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height:1.5;
+  }
+  
+  
+  .logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height:1.3;
+  }
+  .logo-color {
+  color:var(--accent-color);
+  }
+  
+  /* site nav */
+  .site-nav .link {
+    color:var(--primary-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+  }
+  
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+  color:var(--accent-color);
+  }
+
+  .site-nav-link-current {
+    color:var(--accent-color);
+ }
+  
+ /*link*/
+  .link{
+
+  }
+  
+  .test-link:active {
+  color: var(--accent-color);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /*hero*/
+  .hero {
+    background-color:var(--primary-text-color);
+}
+  .hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.0;
+text-align: center;
+color:var(--one-bg-color) ;
+  }
+
+
+
+  /*section*/
+  .section-title  {
+    color:var(--primary-text-color);
+    font-weight: 500;
+font-size: 20px;
+line-height:1.2;
+  }
+
+  /*button*/
+  .button-primary {
+    color: var(--accent-color);
+    background-color:var(--primary-bg-color);
+    cursor: pointer;
+    font-size: inherit;
+    
+  }
+  /* .button-secondary {
+    color:#FFFFFF;
+    background-color: #404BBF;
+  } */
+ .buttons-effects:hover,
+ .buttons-effects:focus {
+    background-color: var(--hover-bg-color);
+ }
